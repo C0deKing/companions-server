@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   companions:
-    image: companions
+    image: c0deking/comp-sci-371-companions:0.0.1
     ports:
       - "9100:9100"
     volumes: 
