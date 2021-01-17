@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  companions:
+    image: companions
+    ports:
+      - "9100:9100"
+    volumes: 
+      - companions:/companions
+volumes: 
+  companions:
